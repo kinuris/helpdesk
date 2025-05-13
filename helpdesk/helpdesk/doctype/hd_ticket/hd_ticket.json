@@ -13,6 +13,7 @@
   "raised_by",
   "status",
   "priority",
+  "servio_deal",
   "cb00",
   "ticket_type",
   "agent_group",
@@ -432,13 +433,19 @@
    "label": "Merged With",
    "options": "HD Ticket",
    "read_only": 1
+  },
+  {
+   "fieldname": "servio_deal",
+   "fieldtype": "Link",
+   "label": "Servio Deal",
+   "options": "Servio Registry Deal"
   }
  ],
  "grid_page_length": 50,
  "icon": "fa fa-issue",
  "idx": 61,
  "links": [],
- "modified": "2025-04-09 20:44:24.252633",
+ "modified": "2025-05-08 15:01:05.926679",
  "modified_by": "Administrator",
  "module": "Helpdesk",
  "name": "HD Ticket",
