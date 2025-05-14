@@ -12,6 +12,7 @@ from helpdesk.helpdesk.doctype.hd_ticket_template.api import get_one as get_temp
 from helpdesk.utils import agent_only, check_permissions, get_customer, is_agent
 
 
+
 @frappe.whitelist()
 # flake8: noqa
 def new(doc, attachments=[]):
